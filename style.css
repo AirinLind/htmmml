@@ -1,0 +1,206 @@
+.section_1 {
+    height: 100vh;
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/4e576e4f2ca65404ad222a20/pexels-makjp-12258695.jpg);
+    background-size: 100%;
+    background-position-y: -750px;
+    margin: 0 0 0 0;
+}
+
+.section_2 {
+    height: 100vh;
+    background-color: black;
+}
+
+.section_3 {
+    height: 100%;
+    background-color: black;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+.hd_main {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 25%;
+    left: 13%;
+}
+
+.hd_txt {
+    padding: 0 50px;
+    background-color: #1d1dae;
+    color: white;
+}
+
+.hd {
+    width: 100%;
+    font-size: 80px;
+    color: white;
+    margin-top: 0;
+}
+
+.hd_txt_hidden {
+    width: 400px;
+}
+
+.hd_txt_b {
+    font-family:Verdana;    
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+li::before {
+    content: "✓";
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+.circle_1 {
+        width: 100px; 
+        height: 100px;
+        background: #1d1dae;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        font-weight: bold;
+        position: absolute;
+        top: 135%;
+        left: 13%;
+}
+
+.circle_2 {
+    width: 400px; 
+    height: 400px;
+    background: #1d1dae;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 130%;
+    left: 60%;
+}
+
+.p_1 {
+    color: white;
+    width: 320px;
+    position: absolute;
+    top: 160%;
+    left: 13%;
+    font-size: 20px;
+}
+
+.p_2 {
+    color: white;
+}
+
+.hd2 {
+    margin-top: 50px;
+    position: absolute;
+    width: 400px;
+    left: 13%;
+    top: 110%;
+}
+
+.hd3 {
+    width: 800px;
+    color: white;
+    font-size: 80px;
+}
+
+.ddd {
+    display: flex;
+    flex-direction: column;
+    margin: 0 13%;
+    width: 1216px;
+    flex-wrap: wrap;
+}
+
+.image {
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/20d6fbffe579580fba61d13b/pexels-tarzine-jackson-773371.png);
+    margin-top: 100px;
+    height: 455px;
+    width: 570px;
+    background-size: contain;
+}
+
+.ttt {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.ctt {
+    width: 80px; 
+    height: 80px;
+    background: #1d1dae;
+    border-radius: 50%;
+}
+
+.zzz {
+    width: 700px;
+}
+
+.vvv {
+    display: flex;
+    flex-direction: column;
+    margin: 0 13%;
+    height: 800px;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.hhh {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.ggg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+}
+
+.big {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin: 20px 0;
+}
+
+.lil {
+    font-size: 15px;
+    padding-left: 30px;
+    margin: 20px 0;
+}
+
+.footer {
+    height: 200px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f {
+    color: white;
+}
